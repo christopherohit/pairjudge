@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pairjudge"
+version = "0.1.0"
+description = "Support-calibrated proposal compatibility fields"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "christopherohit" }]
+dependencies = ["numpy>=1.24", "scipy>=1.9"]
+
+[tool.setuptools]
+py-modules = ["pairjudge"]
